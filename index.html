@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wildlife 🦁</title>
+    <style>
+      body {
+        background: darkolivegreen;
+      }
+
+      h1 {
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid;
+        border-radius: rgba(255, 255, 255, 0.1);
+        background: white;
+        font-size: 20px;
+        border-radius: 20px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+
+      button:hover {
+        background: black;
+        cursor: pointer;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .dark .container {
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .dark a {
+        color: darkolivegreen;
+      }
+
+      .dark {
+        background: black;
+        color: white;
+      }
+
+      footer {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 18px;
+      }
+
+      .theme-button {
+        font-size: 20px;
+        background: rgba(255, 255, 255, 0.1);
+        border-color: rgba(255, 255, 255, 0.1);
+        color: white;
+        padding: 5 8px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      .theme-button:hover {
+        color: white;
+        background: black;
+      }
+
+      .dark .theme-button {
+        color: white;
+        background: rgba(255, 255, 255, 0.1);
+        border-color: black;
+      }
+
+      .dark .theme-button:hover {
+        color: white;
+        background: darkolivegreen;
+        border-color: darkolivegreen;
+      }
+      .wild-intro-pic {
+        border-radius: 10px;
+        transition: all 150ms ease-in-out;
+        display: block;
+        margin: auto;
+      }
+
+      .wild-intro-pic:hover {
+        filter: contrast(80%);
+        transform: scale(1.3);
+      }
+
+      .grid {
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+      }
+
+      .grid img {
+        width: 300px;
+        height: 200px;
+        border-radius: 8px;
+        object-fit: cover;
+        transition: all 150ms ease-in-out;
+      }
+
+      .grid img:hover {
+        transform: scale(1.2);
+      }
+
+      .book-button {
+        font-size: 20px;
+        background: black;
+        border-color: darkgrey;
+        color: white;
+        padding: 5 8px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      .book-button:hover {
+        color: white;
+        border-color: black;
+        background: black;
+      }
+
+      .dark .book-button {
+        color: white;
+        background: black;
+        border-color: black;
+      }
+
+      .dark .book-button:hover {
+        color: white;
+        background: darkolivegreen;
+        border-color: darkolivegreen;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme-button">Change theme</button>
+    <div class="container">
+      <h1>Wildlife</h1>
+      <h2>Embrace Nature: Experience the Thrill of Safaris!</h2>
+      <a href="https://en.wikipedia.org/wiki/Wildlife" target="_blank">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/555/original/lion-2793122_1280.jpg?1721941270"
+          alt=""
+          class="wild-intro-pic"
+        />
+      </a>
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/565/original/elephant.jpg?1721943961"
+          alt=""
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/563/original/images.jpg?1721943921"
+          alt=""
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/567/original/istockphoto-962800314-612x612.jpg?1721943996"
+          alt=""
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/564/original/istockphoto-1026597706-612x612.jpg?1721943933"
+          alt=""
+        />
+      </div>
+      <p>
+        Welcome to the ultimate game resort experience, where the wonders of the
+        wild come alive! Dive into the heart of nature with thrilling safaris
+        and game drives that offer an up-close encounter with
+        <a href="https://en.wikipedia.org/wiki/Big_five_game" target="_blank"
+          >the majestic Big Five.</a
+        >
+        Each safari is more than just an adventure—it's a journey into the soul
+        of the wilderness, where you can witness lions stalking through the
+        golden savannah, zebras grazing in peaceful harmony, and giraffes
+        gliding gracefully across the plains.
+      </p>
+      <p>
+        Our game resort offers the perfect blend of excitement and serenity,
+        giving you the opportunity to explore the untamed beauty of nature and
+        create unforgettable memories. Whether you're a seasoned wildlife
+        enthusiast or a first-time explorer, our safaris promise an experience
+        that will captivate and inspire. Come and immerse yourself in the wild
+        at our game resort—where every moment is a new adventure waiting to be
+        discovered!
+      </p>
+
+      <button class="book-button">Book a wildlife experience</button>
+    </div>
+    <footer>Coded by: Thandie Rabasimane</footer>
+  </body>
+  <script>
+    function changeTheme() {
+      let body = document.querySelector("body");
+
+      body.classList.toggle("dark");
+    }
+
+    let themeButton = document.querySelector(".theme-button");
+
+    themeButton.addEventListener("click", changeTheme);
+
+    function yourName() {
+      let name = prompt("Hello 👋 and welcome! What is your name?");
+      let email = prompt("What is your email address?");
+
+      alert(`Thank you,` + name + `! We will reach out soon!🦁`);
+    }
+
+    let contactButton = document.querySelector(".book-button");
+    contactButton.addEventListener("click", yourName);
+  </script>
+</html>
